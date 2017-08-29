@@ -1,0 +1,568 @@
+.container {
+	width:980px;
+	height: 980px;
+	position: relative;
+
+}
+
+#navbar {
+	width:100%;
+	height:53px;
+	top:0px;
+	background-color: white;
+	position: absolute;
+	margin-top:0px;
+	border: 3px solid #337ab7;
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	left: 166px;
+}
+
+#namebar {
+	width: 406px;
+	height: 53px;
+	padding-left:10px;
+	background-color: #337ab7;
+	color:white;
+	float: left;
+	font-size:66px;
+	font-family:'VT323';
+	position:absolute;
+}
+
+
+#main-content-container {
+	top:88px;
+	left:166px;
+	border:2px solid #337ab7;
+	background-color:#f8f8f8;
+	width:68%;
+	height:100%;
+	position: absolute;
+	margin-bottom:10%;
+	padding:10px;
+}
+
+.main-content {
+	font-family:'Mada';
+	padding-top:10px;
+}
+
+#connect {
+	clear:both;
+	float:right;
+	top:9%;
+	right:-17%;
+	width: 24%;
+	height: 100%;
+	border:2px solid #337ab7;
+	background-color:#f8f8f8;
+	position:absolute;
+	margin-bottom:10%;
+	padding:10px;
+}
+p,h1,h2,h3 {
+	font-family: 'Mada';
+}
+
+.clear {
+	clear:both;
+}
+
+.footer {
+	width:65%;
+	right:24%;
+	height: 5%;
+	color:gray;
+	left: 165px;
+	text-align:center;
+	bottom: 0;
+	background-color:#f8f8f8;
+	border:2px #337ab7 solid;
+	font-family: 'Mada';
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+#sidebarpic {
+    width:200px;
+    height: 120px;
+    margin-left:22px;
+    margin-top:-4px;
+    margin-bottom:10px;
+}
+
+.icon-size {
+    width: 61px;
+    height: 61px;
+    margin-left: 13px;
+    margin-right: 10px;
+}
+
+.image-information {
+    width: 397px;
+    height: 271px;
+    float: left;
+    padding-right:10px;
+    font-size: 11px;
+    color:gray;
+    text-align:right;
+}
+
+#aboutme-img {
+    width: 92%;
+    height: auto;
+    float: left;
+    display:inline-block;
+    margin-left:19px;
+    margin-right: 25px;
+    margin-bottom: 3px;
+}
+
+h1 {
+	font-size:35px;
+	padding: 0px;
+	margin-left: 21px;
+	margin-bottom:0px;
+	color: #569fef;
+}
+h2 {
+	color: #569fef;
+	font-family:'Mada';
+}
+
+h3 {
+	color: #569fef;
+	font-size: 28px;
+	text-align:center;
+}
+
+h4 {
+	color:#569fef;
+	font-family:'Mada';
+}
+
+
+
+.port-banner {
+    width: 300px;
+    height: 64px;
+    background-color:#569fef;
+    font-family: 'VT323';
+    font-size:64px;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+.port-banner1 {
+    top:302px;
+    left:-11px;
+}
+
+.port-banner2 {
+    top:302px;
+    right: -5px;
+}
+
+.port-banner3 {
+    bottom:184px;
+    left:-11px;
+}
+
+.port-banner4 {
+    bottom:184px;
+    right:-5px;
+}
+
+.portfolio-images {
+	position: relative;
+	margin-left:19px;
+	margin-top:19px;
+}
+
+.firstname, .lastname {
+    width: 650px;
+}
+textarea {
+    width: 650px;
+    height: 200px;
+    resize: none;
+}
+
+input {
+    width: 650px;
+    font-weight: none;
+}
+
+label {
+    font-weight: none;
+}
+
+.testbutton {
+	position:relative;
+	background-color: #337ab7;
+	width:100px;
+	height:39px;
+	float:right;
+	text-align:center;
+	font-family: 'Mada';
+	color: white;
+	font-size:23px;
+	display:inline-block;
+	padding-top: 14px;
+}
+.testbutton :hover {
+	background-color: #569fef;
+}
+a {
+	color:white;
+	text-decoration:none;
+}
+@media only screen and (max-width: 768px) {
+    body {
+      
+    }
+
+    h3 {
+    	font-size:40px;
+    	margin: 0px;
+    }
+
+    ul {
+    	list-style: none;
+    }
+	
+	li {
+		position: relative;
+		float: right;
+		right:10px;
+
+	}
+
+	.container {
+		width:100%;
+		height: scroll auto;
+		position: relative;
+		margin-left:0px;
+		left:-16px;
+	}
+
+	#navbar {
+		width: 769px;
+		position:absolute;
+		left:8px;
+		top:-16px;
+		background-color:#337ab7;
+
+	}
+
+	#nameebar {
+		width:300px;
+		font-size:10px;
+		position:absolute;
+		top:-16px;
+		float:left;
+	}
+
+
+.testbutton {
+	position:relative;
+	background-color: #337ab7;
+	width:100px;
+	height:39px;
+	float:right;
+	text-align:center;
+	font-family: 'Mada';
+	color: white;
+	font-size:23px;
+	display:inline-block;
+	padding-top: 14px;
+	right: 22px;
+}
+	#main-content-container {
+		
+		width: 100%;
+		height:auto;
+		left:8px;
+		top:39px;
+		position:absolute;
+		margin-bottom:10px;
+	}
+
+	.image-information {
+		position: relative;
+		margin-right:33px;
+		margin-bottom:44px;
+		float:left;
+	}
+
+	#aboutme-img {
+		width: 100%;
+		height: auto;
+		display:inline-block;
+		float:left;
+	}
+
+	.main-content {
+		height:auto;
+		font-size: 14px;
+		font-style:'Mada';
+		clear:both;
+		display:inline;
+	
+		
+	}
+
+#connect {
+	width: 100%;
+	font-size: 15px;
+	clear:all;
+	height:auto;
+	left:9px;
+	clear:both;
+	top: 700px;
+	}
+
+.icon-size {
+    width: 64px;
+    height: 64px;
+    margin-left: 158px;
+    margin-right: 10px;
+}
+
+.portfolio-images {
+	position: relative;
+	width:200px;
+	height:200px;
+	margin-right:55px;
+	left:108px;
+}
+
+.port-banner {
+    width: 200px;
+    height: 64px;
+    background-color:#569fef;
+    font-family: 'VT323';
+    font-size:50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+.port-banner1 {
+    top:212px;
+    left:97px;
+}
+
+.port-banner2 {
+    top: 212px;
+    right: 101px;
+}
+
+.port-banner3 {
+    bottom:6px;
+    left:97px;
+}
+
+.port-banner4 {
+    bottom:6px;
+    right:101px;
+}
+.footer {
+	position:relative;
+	width:746px;
+	left: -7px;
+	top:136px;
+	height: auto;
+	bottom:0px;
+	}
+
+#sidebarpic {
+  	width:200px;
+  	height: 120px;
+    padding-right:5px;
+    margin-left:-4px;
+    margin-top:20px;
+    margin-bottom:10px;
+    float:left;
+
+
+}
+
+@media only screen and (max-width: 640px) {
+	body {
+		background-color: pink;
+
+	}
+    h3 {
+    	font-size:40px;
+    	margin: 0px;
+    }
+
+    ul {
+    	list-style: none;
+    }
+	
+	li {
+		position: relative;
+		float: right;
+		right:10px;
+
+	}
+
+	.container {
+		width:100%;
+		height: scroll auto;
+		position: relative;
+		margin-left:0px;
+		left:-16px;
+	}
+
+	#navbar {
+		width: 639px;
+		height:auto;
+		position:absolute;
+		left:8px;
+		top:-16px;
+		background-color:#337ab7;
+
+	}
+
+	#namebar {
+		width:auto;
+		font-size:57px;
+		left:125px;
+		position:absolute;
+		top:10px;
+		float:left;
+		color:white;
+	}
+
+
+.testbutton {
+	position:relative;
+	background-color: #337ab7;
+	width:208.3px;
+	height:39px;
+	float:right;
+	text-align:center;
+	font-family: 'Mada';
+	color: white;
+	font-size:23px;
+	display:inline-block;
+	padding-top: 14px;
+	right: 17px;
+	top:56px;
+	top-border:1px solid #fff;
+}
+	#main-content-container {
+		
+		width: 100%;
+		height:auto;
+		left:8px;
+		top:93px;
+		position:absolute;
+		margin-bottom:10px;
+	}
+
+	.image-information {
+		position: relative;
+		margin-right:33px;
+		margin-bottom:44px;
+		float:left;
+	}
+
+	#aboutme-img {
+		width: 100%;
+		height: auto;
+		display:inline-block;
+		float:left;
+	}
+
+	.main-content {
+		height:auto;
+		font-size: 14px;
+		font-style:'Mada';
+		clear:both;
+		display:inline;
+	
+		
+	}
+
+#connect {
+	width: 100%;
+	font-size: 15px;
+	clear:all;
+	height:auto;
+	left:8px;
+	clear:both;
+	top: 801px;
+	}
+
+.icon-size {
+    width: 64px;
+    height: 64px;
+    margin-left: 158px;
+    margin-right: 10px;
+}
+
+.portfolio-images {
+	position: relative;
+	width:200px;
+	height:200px;
+	margin-right:55px;
+	left:108px;
+}
+
+.port-banner {
+    width: 200px;
+    height: 64px;
+    background-color:#569fef;
+    font-family: 'VT323';
+    font-size:50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+.port-banner1 {
+    top:212px;
+    left:97px;
+}
+
+.port-banner2 {
+    top: 212px;
+    right: -28px;
+}
+
+.port-banner3 {
+    bottom:6px;
+    left:97px;
+}
+
+.port-banner4 {
+    bottom:6px;
+    right:-28px;
+}
+.footer {
+	position:relative;
+	width:639px;
+	left:-8px;
+	top:295px;
+	height: auto;
+	bottom:0px;
+	}
+
+#sidebarpic {
+  	width:200px;
+  	height: 120px;
+    padding-right:5px;
+    margin-left:-4px;
+    margin-top:20px;
+    margin-bottom:10px;
+    float:left;
+
+
+}
